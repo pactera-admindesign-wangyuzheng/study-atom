@@ -1,0 +1,20 @@
+Atom编辑器里跳到定义函数或者类定义处，自身没带这种功能，需要通过追加插件来添加这项功能。
+下面详细介绍一下goto-definition的安装方法。
+一 安装
+◆直接在软件里安装
+1 在菜单处，选[文件]，选[环境设定]，选[安装]
+2 在搜索处输入[goto-definition]，在搜索结果里选[goto-definition1.3.4]，点安装
+
+◆通过命令安装
+apm install goto-definition
+
+◆适合语言
+- JavaScript ( ES6 && JSX ) , TypeScript, CoffeeScript
+- Python, Ruby
+- PHP, Hack ( HHVMで動く言語 ) , Perl, KRL
+ 
+ 二 使用方法
+ 在想检索的函数和类上点击右键，选Goto Definiction（跳到定义处），然后从检索结果里选择定义。
+ 
+
+  
